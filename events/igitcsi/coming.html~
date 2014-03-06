@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Tremors 13</title>
+<style type="text/css">
+ 
+    @font-face {
+    font-family: "tangerine";
+    src: url("Tangerine_Regular.eot");
+src: local("tangerine"), url("Tangerine_Regular.eot");
+    }
+
+    @font-face {
+    font-family: "tangerine";
+    src: url("Tangerine_Regular.eot");
+src: local("tangerine"), url("Tangerine_Regular.ttf");
+    }
+
+</style>
+</head>
+<body bgcolor="#000">
+<br><br><br>
+<font size="70px"  style="font-family:tangerine;color:#FF3399"><center>Coming Soon ...</center>
+<br>
+<center>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/VINwsQb-L0w" frameborder="0" allowfullscreen></iframe>
+<br><br>
+Presented by : Igit Csi Student Branch
+</center>
+</font>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.rd ul {
+				list-style: none;
+				padding: 0;
+				margin: 0 auto;
+				width: 30em;
+				height: 3em;
+			}
+			.rd ul li {
+				height: 5em;
+				width: 5em;	
+				text-align: center;
+				cursor: pointer;
+			}
+				.rd ul li.roundabout-in-focus {
+					cursor: default;
+				}
+			.rd ul li span {
+				display : block;
+				padding-top: 6em;
+			}
+

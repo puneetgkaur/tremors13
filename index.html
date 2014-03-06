@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UTF-8'>
+<title>TREMORS 13</title>
+<link rel="icon" href="images/asterisk_orange.png" sizes="32x32">
+<link rel="stylesheet" href="css-uncompressed/style.css" type="text/css" media="screen"/>
+
+<link rel="stylesheet" href="css/queryLoader.css" type="text/css" />
+<script type='text/javascript' src='js/queryLoader.js'></script>
+<!--[if IE]> 
+	        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js-uncompressed/pop-ups.js"></script>
+		<script type="text/javascript" src="js-uncompressed/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js-uncompressed/jquery.mousewheel.js"></script>
+                <script type="text/javascript" src="js-uncompressed/jquery.jscrollpane.min.js"></script>
+                <script type="text/javascript" src="js-uncompressed/cufon.js"></script>
+		<script type="text/javascript" src="js-uncompressed/Quicksand_Book_400.font.js"></script>
+		<script type="text/javascript" src="js-uncompressed/functions.js"></script>
+		<![endif]-->
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+			
+			<script type="text/javascript">
+		 	jQuery(function($) {
+			var open = false;
+			$('#footerSlideButton').click(function () {
+				if(open === false) {
+					$('#footerSlideContent').animate({ height: '520px' });
+					$(this).css('backgroundPosition', 'bottom left');
+					open = true;
+				} else {
+					$('#footerSlideContent').animate({ height: '0px' });
+					$(this).css('backgroundPosition', 'top left');
+					open = false;
+				}
+			});		
+		});
+		</script>
+		<script type="text/javascript">
+		jQuery(function($) {
+			var open = false;
+			$('#footerSlideButton2').click(function () {
+				if(open === false) {
+					$('#footerSlideContent2').animate({ height: '560px' });
+					$(this).css('backgroundPosition', 'bottom left');
+					open = true;
+				} else {
+					$('#footerSlideContent2').animate({ height: '0px' });
+					$(this).css('backgroundPosition', 'top left');
+					open = false;
+					}
+				});		
+			});	
+		</script>
+		<script type="text/javascript">
+		jQuery(function($) {
+			var open = false;
+			$('#footerSlideButton3').click(function () {
+				if(open === false) {
+					$('#footerSlideContent3').animate({ height: '560px' });
+					$(this).css('backgroundPosition', 'bottom left');
+					open = true;
+				} else {
+					$('#footerSlideContent3').animate({ height: '0px' });
+					$(this).css('backgroundPosition', 'top left');
+					open = false;
+				}
+			});		
+		});	
+		</script>
+		<script type="text/javascript">
+		jQuery(function($) {
+			var open = false;
+			$('#footerSlideButton4').click(function () {
+				if(open === false) {
+					$('#footerSlideContent4').animate({ height: '100px' });
+					$(this).css('backgroundPosition', 'bottom left');
+					open = true;
+				} else {
+					$('#footerSlideContent4').animate({ height: '0px' });
+					$(this).css('backgroundPosition', 'top left');
+					open = false;
+				}
+			});		
+		});	
+		</script>
+		<style type="text/css">
+		/*@font-face {
+		font-family: 'DejaVuSansBook';
+		src: url('DejaVuSans-webfont.eot');
+		src: url('DejaVuSans-webfont.eot?#iefix') format('eot'),
+		 url('DejaVuSans-webfont.woff') format('woff'),
+		 url('DejaVuSans-webfont.ttf') format('truetype'),
+		 url('DejaVuSans-webfont.svg#webfontS7fnJSPW') format('svg');
+		font-weight: normal;
+		font-style: normal;
+		}*/
+		body {
+			margin:0;
+			padding:0;
+			background: #EFEFEF;
+		}
+		#footerSlideContainer {
+			position: fixed;
+			bottom:0;
+			width: 100%;
+			z-index:+30;
+		}
+		#footerSlideButton:hover{
+		background:#2F0B3A;
+		color:#fff;
+		}
+		#footerSlideButton {
+
+			/*background: url(images/Screenshot from 2013-02-09 01:00:15.png) top left no-repeat transparent;*/
+			position:absolute;
+			top: -25px;
+			right: 0%;
+			width:25%;
+			height:50px;
+			
+			font-size:20px;
+			background: #F5A9E1;
+			color:#1C1C1C;
+			opacity :0.8;
+			margin-left:5%;
+			/* left no-repeat transparent;
+			position:absolute;
+			top: -55px;
+			right: 20px;
+			width:50px;
+			height:50px;
+			border: none;*/
+			cursor: pointer;
+			z-index:+30;
+		}
+		#footerSlideButton2:hover{
+		background:#2F0B3A;
+		color:#fff;
+		}
+		#footerSlideButton2 {
+			/*background: url(images/sponsors.png) top  left no-repeat transparent ;*/
+			position:absolute;
+			top: -25px;
+			right: 25%;
+			width:25%;
+			height:50px;
+			
+			font-size:20px;
+			background: #DA81F5;
+			color:#1C1C1C;
+			
+			opacity :0.8;
+			/* left no-repeat transparent;
+			position:absolute;
+			top: -55px;
+			right: 20px;
+			width:50px;
+			height:50px;
+			border: none;*/
+			cursor: pointer;
+			z-index:+30;
+		}
+		#footerSlideButton3:hover{
+		background:#2F0B3A;
+		color:#fff;
+		}
+		#footerSlideButton3 {
+			/*background: url(images/sponsors.png) top  left no-repeat transparent ;*/
+			position:absolute;
+			top: -25px;
+			right:50%;
+			width:25%;
+			height:50px;
+			
+			font-size:20px;
+			background: #F5A9E1;
+			color:#1C1C1C;
+			opacity :0.8;
+			/* left no-repeat transparent;
+			position:absolute;
+			top: -55px;
+			right: 20px;
+			width:50px;
+			height:50px;
+			border: none;*/
+			cursor: pointer;
+			z-index:+30;
+		}
+		#footerSlideButton4:hover{
+		background:#2F0B3A;
+		color:#fff;
+		
+		}
+		#footerSlideButton4 {
+			/*background: url(images/sponsors.png) top  left no-repeat transparent ;*/
+			position:absolute;
+			top: -25px;
+			right:75%;
+			width:25%;
+			height:50px;
+			
+			font-size:20px;
+			background: #DA81F5;
+			color:#1C1C1C;
+			opacity :0.8;
+			/* left no-repeat transparent;
+			position:absolute;
+			top: -55px;
+			right: 20px;
+			width:50px;
+			height:50px;
+			border: none;*/
+			cursor: pointer;
+			z-index:+30;
+		}
+		#footerSlideContent {
+			width: 100%;
+			height: 0px;
+			background:#1C1C1C;
+			opacity:0.9;
+			color: #CCCCCC;
+			font-size: 0.8em;
+			border: none;
+			
+		}
+		#footerSlideContent h3 {
+			font-size: 36px;
+			color: #9AC941;
+			margin: 10px 0 10px 0;
+		}
+		#footerSlideContent ul {
+			color: #EE8D40;
+			list-style-type: none;
+			line-height: 2em;
+		}
+		#footerSlideContent2 {
+			width: 100%;
+			height: 0px;
+			background:#1C1C1C;
+			opacity:0.9;
+			color: #CCCCCC;
+			font-size: 0.8em;
+			border: none;
+			/*font-family: DejaVuSansBook, Sans-Serif;*/
+		}
+		#footerSlideContent2 h3 {
+			font-size: 36px;
+			color: #9AC941;
+			margin: 10px 0 10px 0;
+		}
+		#footerSlideContent2 ul {
+			color: #EE8D40;
+			list-style-type: none;
+			line-height: 2em;
+		}
+				#footerSlideContent3 {
+			width: 100%;
+			height: 0px;
+			background:#1C1C1C;
+			opacity:0.9;
+			color: #CCCCCC;
+			font-size: 0.8em;
+			border: none;
+			/*font-family: DejaVuSansBook, Sans-Serif;*/
+		}
+		#footerSlideContent3 h3 {
+			font-size: 36px;
+			color: #9AC941;
+			margin: 10px 0 10px 0;
+		}
+		#footerSlideContent3 ul {
+			color: #EE8D40;
+			list-style-type: none;
+			line-height: 2em;
+		}
+			#footerSlideContent4 {
+			width: 100%;
+			height: 0px;
+			background:#1C1C1C;
+			opacity:0.9;
+			color: #CCCCCC;
+			font-size: 0.8em;
+			border: none;
+			/*font-family: DejaVuSansBook, Sans-Serif;*/
+		}
+		#footerSlideContent4 h3 {
+			font-size: 36px;
+			color: #9AC941;
+			margin: 10px 0 10px 0;
+		}
+		#footerSlideContent4 ul {
+			color: #EE8D40;
+			list-style-type: none;
+			line-height: 2em;
+		}
+		#footerSlideText {
+			padding: 15px 10px 25px 25px;
+		}
+		#header{
+		background:#000;
+		opacity:0.8;
+		width:800px;
+		
+		transform: rotate(-23deg);
+		-ms-transform: rotate(-23deg); /* IE 9 */
+		-webkit-transform: rotate(-23deg); /* Safari and Chrome */
+		-o-transform: rotate(-23deg); /* Opera */
+		-moz-transform: rotate(-23deg); /* Firefox */
+		}
+		
+		.QOverlay {
+			background-color: #000000;
+			z-index: 9999;
+		}
+		
+		.QLoader {
+			background-color: #CCCCCC;
+			height:1px;
+		}
+	
+		     <!-- Hook up the Loader -->
+
+		</style>	
+</head>
+
+<body  >
+
+	<!-- Loader -->
+
+	
+<div id="main" class="main"> <img src="images/album/1.jpg" alt="" class="preview" style="display:none;"/>
+  <section class="overlay"></section>
+ 
+  <header id="header">
+  
+    <h1>TREMORS 13.0</h1>
+    <h6>Annual TechFest of CSI IGIT Student Branch</h6>
+  <!--  <h6>Photographs by <a href="http://www.flickr.com/photos/avengermark/" target="_blank">markusrichmond</a></h6>
+    <h6>Design by <a href="http://www.priteshgupta.com" target="_blank">PriteshGupta.com</a></h6>-->
+  </header>
+  
+  <div id="loading" class="loading"><span>Loading...</span></div>
+  <span class="link2" id="toggle2"><span class="arrow_down2"></span></span>
+  <nav>
+    <ul id="menu" class="menu">
+      <li> <a href="#" id="contact"> <img src="images/c.png" alt=""/> <span class="active"></span> <span class="wrap"> <span class="link">Contact</span> <span class="descr">Get in touch</span> </span> </a> </li>
+      <li> <a href="events/allEvent.html" > <img src="images/e.png" alt=""/> <span class="active"></span> <span class="wrap"> <span class="link">Events</span> <span class="descr">Explore the fun</span> </span> </a> </li>
+      
+      <li> <a href="#" id="about"> <img src="images/a.png" alt=""/> <span class="active"></span> <span class="wrap"> <span class="link">About</span> <span class="descr">Know about us</span> </span> </a> </li>
+    </ul>
+  </nav>
+</div>
+<ul id="nav" class="navigation footer" style="">
+  <li class="album"> <span class="link" id="toggle"><span class="arrow_down"></span></span>
+    <div class="wrapper thumbs_wrapper">
+      <div class="thumbs"> 
+      <img src="images/album/thumbs/1.png" alt="images/album/1.jpg"/> 
+      <img src="images/album/thumbs/2.png" alt="images/album/2.jpg"/> 
+      <img src="images/album/thumbs/3.png" alt="images/album/3.jpg"/> 
+      <img src="images/album/thumbs/4.png" alt="images/album/4.jpg"/> 
+      <img src="images/album/thumbs/5.gif" alt="images/album/5.gif"/>
+      <img src="images/album/thumbs/6.png" alt="images/album/6.jpg"/> 
+      <img src="images/album/thumbs/7.png" alt="images/album/7.jpg"/> 
+            <img src="images/album/thumbs/1.png" alt="images/album/1.jpg"/> 
+      <img src="images/album/thumbs/2.png" alt="images/album/2.jpg"/> 
+      <img src="images/album/thumbs/3.png" alt="images/album/3.jpg"/>
+	        </div>
+    </div>
+  </li>
+</ul>
+
+<article id="popupAbout" class="popupAbout"><a id="popupAboutClose"><img src="images/close.png" width="80" height="80" alt="" /></a>
+  <h1>About<h1> 
+  <p><img src="images/pos90.jpg"  alt="" class="image"/> <br><br>You Bring: "NOTHING"<br><br>
+ You Do: "JUST PLAY"<br><br> You Take Home: "GIFTS AND PRIZES!"<br><br>Yes guys...Tremors the annual  technical festival  of  IGIT CSI Student Branch is BACK!!! And this time with even more innovative, captivating and frivolous events for which you surely need to take a dip in your pool of talent!!!<br><br> We promise to Tickle you, Enlighten you, Entertain you....!!<br><br>Here you will get a chance to hop around the IGIT campus on 3 feet....!! Become the Bollywood Badshah!! Put on your detective caps and be a part of your own Bomb Squad!! Have a shot at the best 60 seconds of your life AND relive the chance to become a small kid yet again!! Did you ever think that watching TV could make you win prizes?? Want to be a part of the age old war of sexes at ADAM VS MADAM? How about testing the EQUATION with your best friend?<br><br>All this at one place- TREMORS 13.0!! We present the best of the events with a blend of all the games you ever desired to play!<br><br>So what are you waiting for? Come and join us all at TREMORS 13.0 , to revisit the scintillating environment yet again, and we assure that we won't let you go empty-handed! 
+
+
+</article>
+<article id="popupContact" class="popupContact">
+  <h1>Contact</h1><a id="popupContactClose"><img src="images/close.png" width="80" height="80" alt="" /></a>
+  <p></p> 
+  <form action="form.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" required placeholder="Name" />
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required placeholder="email@example.com" />
+    
+    <label for="message">Message:</label>
+    <textarea name="message" id="message" required></textarea>
+    <input type="submit" value="Send Message" />
+  </form>
+  <iframe width="425" height="300" class="map" src="http://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Indira+Gandhi+Institute+of+Technology,+Mori+Gate,+New+Delhi,+Delhi&amp;aq=0&amp;oq=indira+gandhi+institute+of+te&amp;sll=20.98352,82.752628&amp;sspn=48.65509,73.300781&amp;ie=UTF8&amp;hq=Indira+Gandhi+Institute+of+Technology,+Mori+Gate,+New+Delhi,+Delhi&amp;t=m&amp;ll=28.665276,77.232288&amp;spn=0.019581,0.032015&amp;output=embed"></iframe>
+  <div id="social-network"> 
+      <a href="http://www.youtube.com/watch?v=VINwsQb-L0w&feature=youtu.be" target="_blank"><img src="images/youTube.jpeg" alt="youTube" /></a>
+  <a href="https://www.facebook.com/groups/tremors13/" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a> 
+  <a href="http://in.linkedin.com/pub/csi-igit/57/abb/870" target="_blank"><img src="images/linkedin.png" alt="Linkedin" /></a> 
+ 
+    <a href="http://tremors13.blogspot.in/   and igitcsiblog.blogspot.com" target="_blank"><img src="images/blogger.jpeg" alt="blogger" /></a> 
+  </div>
+
+</article>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
+<script type="text/javascript" src="js-uncompressed/jquery.easing.1.3.js"></script> 
+<script type="text/javascript" src="js-uncompressed/pop-ups.js"></script> 
+<script type="text/javascript" src="js-uncompressed/jquery.mousewheel.js"></script> 
+<script type="text/javascript" src="js-uncompressed/jquery.jscrollpane.min.js"></script> 
+<script type="text/javascript" src="js-uncompressed/cufon.js"></script> 
+<script type="text/javascript" src="js-uncompressed/Quicksand_Book_400.font.js"></script> 
+<script type="text/javascript" src="js-uncompressed/functions.js"></script>
+
+<div id="footer_background"></div>
+<div id="footerSlideContainer">
+	<div id="footerSlideButton"><center>TEAM</center></div>
+	<div id="footerSlideContent">
+		<div id="footerSlideText">
+		<center>
+			<table width="610" border="0" cellspacing="7" ">
+                   <br>
+                    <tr>
+                      <td><font color="#F26D2A"><strong>Chairperson</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Shipra Jain</strong></font></td>
+                      <td><font color="#86B226"><strong>shiprajain.igit@gmail.com</strong></font></td>
+                    </tr>
+                     
+                    <tr>
+			<td><font color="#F26D2A"><strong>Vice Chairperson</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Isha Gupta</strong></font></td>
+                      <td><font color="#86B226"><strong>ishagupta80@yahoo.com</strong></font></td>
+                    </tr>
+                   
+                    <tr>
+			<td><font color="#F26D2A"><strong>General Secretary</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Anshul Aggarwal</strong></font></td>
+                      <td><font color="#86B226"><strong>anshulaggarwal.16@gmail.com</strong></font></td>
+                    </tr>
+                    <tr>
+                      
+                    </tr>
+                    <tr>
+ 			<td><font color="#F26D2A"><strong>Treasurer</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Kanika Chawla</strong></font></td>
+                      <td><font color="#86B226"><strong>chawla.kanika2011@gmail.com</strong></font></td>                 
+
+                    </tr>
+                     <tr>
+			<td><font color="#F26D2A"><strong>PR Head</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Anubhuti</strong></font></td>
+                      <td><font color="#86B226"><strong>visit.anubhuti@gmail.com</strong></font></td>                 
+
+
+                    </tr>
+                    <tr>
+                    </tr>
+                     <tr>
+                    		<td><font color="#F26D2A"><strong>Webmaster</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Nishtha Jain</strong></font></td>
+                      <td><font color="#86B226"><strong>nishthacjm@gmail.com</strong></font></td>                 
+                  
+                    </tr>
+                      
+                    <tr>
+                    		<td><font color="#F26D2A"><strong>Joint Webmaster</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Puneet Kaur</strong></font></td>
+                      <td><font color="#86B226"><strong>puneet.gkaur@gmail.com</strong></font></td>                 
+                  
+                    </tr>
+                    <tr>
+                     <tr>
+			<td><font color="#F26D2A"><strong>Formal Events Head</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Sonia Suhag</strong></font></td>
+                      <td><font color="#86B226"><strong>sonia.suhag29@gmail.com</strong></font></td>                 
+
+                    </tr>
+                   
+                    <tr>
+  			<td><font color="#F26D2A"><strong>Informal Events Head</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Akshita Chhabra</strong></font></td>
+                      <td><font color="#86B226"><strong>akshitachhabra31@gmail.com</strong></font></td>                 
+                  
+                    </tr>
+                    <tr>
+ 		     <tr>
+                    		<td><font color="#F26D2A"><strong>Creative Head</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Ruchika Goel</strong></font></td>
+                      <td><font color="#86B226"><strong>goelruchika1@gmail.com</strong></font></td>                 
+                  
+                    </tr>
+                    <tr>
+                   		<td><font color="#F26D2A"><strong>Editorial</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Shefali Arora</strong></font></td>
+                      <td><font color="#86B226"><strong>arorashef@gmail.com</strong></font></td>                 
+                  
+                    </tr>
+                     
+
+                    
+                    <tr> 
+                      <tr>
+                 		<td><font color="#F26D2A"><strong>HR Head</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Sakshi Goel</strong></font></td>
+                      <td><font color="#86B226"><strong>sakshigoel.2812@gmail.com</strong></font></td>                 
+                       
+                    </tr>
+                     <tr>
+                     		<td><font color="#F26D2A"><strong>Joint HR Head</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Deepti Gupta</strong></font></td>
+                      <td><font color="#86B226"><strong>deeptigupta.1709@gmail.com</strong></font></td>                 
+                  
+                    </tr>
+                  
+                      
+                   <tr>
+                    <td><font color="#F26D2A"><strong>Membership Incharge</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Priyanka Sangtani</strong></font></td>
+                      <td><font color="#86B226"><strong>priyankasangtani@gmail.com</strong></font></td>                 
+                  
+                    </tr>
+                    
+                    <tr>
+                      
+                    </tr>
+                    
+                    <tr>
+                      
+                    </tr>
+                    
+                   
+                  </table>
+                  </center>
+		</div>
+	</div>
+</div>
+<div id="footerSlideContainer">
+	<div id="footerSlideButton2"><center>SPONSORS</center></div>
+	<div id="footerSlideContent2">
+		<div id="footerSlideText">
+		<center>
+			<table  border="0" cellspacing="40" ">
+                   <br>
+                    <tr>
+                      <td><font color="#F26D2A"><strong><a href="https://www.facebook.com/worldsofwonder"><img src="media/wowlogo.jpg" width="120px" height="80px"></a><br> Associate Sponsor</strong></font></td>
+                      <td><font color="#F26D2A"><strong><a href="http://www.zomato.com/ncr/qds-restaurant-satyaniketan-delhi/menu"><img src="media/QD_s.jpg" width="120px" height="80px"><br>  Sponsor</strong></font></td>
+                      <td><font color="#F26D2A"><strong><a href="http://www.himalayahealthcare.com/"><img src="media/himalaya.gif" width="120px" height="80px"></a><br>  Sponsor</strong></font></td>
+                      <td><font color="#F26D2A"><strong><a href="http://www.aptech-education.com/"><img src="media/aptechlogo.gif" width="120px" height="80px"></a><br>Event Sponsor</strong></font></td>
+                      <td><font color="#F26D2A"><strong><a href="http://www.electronicsforu.com/newelectronics/defaultcampaign.asp"><img src="media/EFY-Event Sponsor.jpg" width="120px" height="80px"><br><center>Event Sponsor</center></strong></font></td>
+                    </tr>
+                    <tr>
+                    <td><font color="#F26D2A"><strong><a href="http://www.studyworldonline.in"><img src="media/Logo Study World.jpg" width="120px" height="80px"><br>  Media Partner</strong></font></td>
+                      <td><font color="#F26D2A"><strong><a href="http://www.infinitecourses.com/"><img src="media/New Logo Infinitie.jpg" width="120px" height="80px"><br>Online Media partner</strong></font></td>
+                      
+                      <td><font color="#F26D2A"><strong><a href="http://www.collegekhabar.com/"><img src="media/cokhab.jpg" width="120px" height="80px"><br><center>Online Media partner</center></strong></font></td>
+                      
+                      <td><font color="#F26D2A"><strong><a href="http://www.twenty19.com/"><img src="media/Twenty19.png" width="120px" height="80px"><br>Student Internship Partner</strong></font></td>
+                      <td><font color="#F26D2A"><strong><a href="https://www.freecharge.in/"><img src="media/freelogo.jpg" width="120px" height="80px"><br>Online Recharge partner</strong></font></td>
+                    </tr>
+                    
+                    <tr>
+                    <td><font color="#F26D2A"><strong><a href="https://www.facebook.com/YourMerchandise/><img src="media/YM-Official Merchandise Partner.jpg" width="120px" height="80px"><br>Official Merchandise partner</strong></font></td>
+                      <td><font color="#F26D2A"><strong><a href="http://www.ignitemindz.com/"><img src="media/2-ignitemindz-psd.jpg" width="120px" height="80px"><br>Workshop Partner</strong></font></td>
+                     <td><font color="#F26D2A"><strong><a href="https://www.facebook.com/fasttrax.food/"><img src="media/FAST TRAX LOGO.jpg" width="120px" height="80px"><br>Sponsor</strong></font></td>
+                    <td><font color="#F26D2A"><strong><a href="http://www.moviepsycho.com/"><img src="media/big-white-logo.png" width="120px" height="80px"><br>Online Media Partner</strong></font></td>
+                     
+                     
+                    </tr>
+                   
+                  </table>
+                  </center>
+		</div>
+		
+	</div>
+</div>
+
+		
+<div id="footerSlideContainer">
+	<div id="footerSlideButton3"><center> SCHEDULE</center></div>
+	<div id="footerSlideContent3">
+		<div id="footerSlideText">	
+<table width="100%" border="0" cellspacing="0" cellpading="5">
+		<tr>
+		<td width=50%">
+	
+			<table width="500" border="0" cellspacing="7" >
+                   <br>
+		    <tr>
+			<th> </th>
+			<th><center> DAY 1</center></th>
+		    </tr>
+		    <tr>
+		    </tr>
+		    <tr>
+		    </tr>
+		    <tr>
+			<th><center> EVENT</center></th>
+			<th><center> VENUE</center></th>
+			<th><center> TIMING</center></th>
+		    </tr>
+                    <tr>
+                      <td><font color="#F26D2A"><strong>Stuck Together</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Campus/Ground</strong></font></td>
+                      <td><font color="#86B226"><strong>1 pm onwards</strong></font></td>
+                    </tr>
+                     
+                    <tr>
+			<td><font color="#F26D2A"><strong>Mix Adda	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>e-212	</strong></font></td>
+                      <td><font color="#86B226"><strong>1:30-3 pm	</strong></font></td>
+                    </tr>
+                    <tr>
+			<td><font color="#F26D2A"><strong>Pictionary	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>e-307	</strong></font></td>
+                      <td><font color="#86B226"><strong>12-2 pm	</strong></font></td>
+                    </tr>
+	             <tr>
+			<td><font color="#F26D2A"><strong>Blackout	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>e-309/Ground	</strong></font></td>
+                      <td><font color="#86B226"><strong>11 am onwards	</strong></font></td>
+                    </tr>
+		    <tr>
+			<td><font color="#F26D2A"><strong>Ticket to Bollywood	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>e-212	</strong></font></td>
+                      <td><font color="#86B226"><strong>10-1 pm	</strong></font></td>
+                    </tr>
+                    <tr>
+			<td><font color="#F26D2A"><strong>Adam vs Madam	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>e-308/campus	</strong></font></td>
+                      <td><font color="#86B226"><strong>12-3 pm	</strong></font></td>
+                    </tr>
+	             <tr>
+			<td><font color="#F26D2A"><strong>Equation	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>e-309	</strong></font></td>
+                      <td><font color="#86B226"><strong>2-4 pm	</strong></font></td>
+                    </tr>
+ 		      
+                    <tr>
+			<td><font color="#F26D2A"><strong>Intellection	</strong></font></td>
+			<td><font color="#86B226"><strong>Admin Block Sem Hall	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>10-1 pm	</strong></font></td>
+                      
+                    </tr>
+                    <tr>
+			<td><font color="#F26D2A"><strong>Roborace	</strong></font></td>
+                      <td><font color="#86B226"><strong>Parking Lot	</strong></font></td>
+			<td><font color="#DC2A95"><strong>Full Day	</strong></font></td>
+                      
+                    </tr>
+	             <tr>
+			<td><font color="#F26D2A"><strong>League of Legends	</strong></font></td>
+                      <td><font color="#86B226"><strong>2nd floor,CC	</strong></font></td>
+			<td><font color="#DC2A95"><strong>2-4,4-5 pm	</strong></font></td>
+                      
+                    </tr>
+		    <tr>
+			<td><font color="#F26D2A"><strong>Mind your Business	</strong></font></td>
+                      <td><font color="#86B226"><strong>Room 212	</strong></font></td>
+			<td><font color="#DC2A95"><strong>3 pm onwards	</strong></font></td>
+                      
+                    </tr>
+                    <tr>
+			<td><font color="#F26D2A"><strong>Smash the bug	</strong></font></td>
+                      <td><font color="#86B226"><strong>SE Lab	</strong></font></td>
+			<td><font color="#DC2A95"><strong>2:30-4 pm	</strong></font></td>
+                      
+                    </tr>
+	             <tr>
+			<td><font color="#F26D2A"><strong>Circuit Wizard	</strong></font></td>
+                       <td><font color="#86B226"><strong>CNS Lab	</strong></font></td>
+			<td><font color="#DC2A95"><strong>2 pm onwards	</strong></font></td>
+                     
+                    </tr>
+		    <tr>
+			<td><font color="#F26D2A"><strong>Thematic-REVOLUTIONIZE	</strong></font></td>
+                       <td><font color="#86B226"><strong>Admin Block Sem Hall	</strong></font></td>
+			<td><font color="#DC2A95"><strong>1-3 pm	</strong></font></td>
+                     
+                    </tr>
+		</table>
+</td>
+<td width="50%">
+		<table width="500" border="0" cellspacing="7" "align="right">
+                   <br>
+		    <tr>
+			<th> </th>
+			<th> DAY 2</th>
+		    </tr>
+		    <tr>
+		    </tr>
+		    <tr>
+		    </tr>
+		    <tr>
+			<th> EVENT</th>
+			<th> VENUE</th>
+			<th> TIMING</th>
+		    </tr>
+                    <tr>
+			<td><font color="#F26D2A"><strong>Potterism Quiz	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>e-308	</strong></font></td>
+                      <td><font color="#86B226"><strong>12-3 pm	</strong></font></td>
+                    </tr>
+	             <tr>
+			<td><font color="#F26D2A"><strong>Minute to win it	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>In front of GCR	</strong></font></td>
+                      <td><font color="#86B226"><strong>1-3 pm	</strong></font></td>
+                    </tr>
+		    <tr>
+			<td><font color="#F26D2A"><strong>Kidzz Again	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Ground	</strong></font></td>
+                      <td><font color="#86B226"><strong>11-2 pm	</strong></font></td>
+                    </tr>
+                    <tr>
+			<td><font color="#F26D2A"><strong>Dumb Charades	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>e-307	</strong></font></td>
+                      <td><font color="#86B226"><strong>1 pm onwards	</strong></font></td>
+                    </tr>
+	             <tr>
+			<td><font color="#F26D2A"><strong>Tambola	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>e-307	</strong></font></td>
+                      <td><font color="#86B226"><strong>11-1 pm	</strong></font></td>
+                    </tr>
+ 		      
+                    <tr>
+			<td><font color="#F26D2A"><strong>Couch Potato	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>e-212	</strong></font></td>
+                      <td><font color="#86B226"><strong>12-2 pm	</strong></font></td>
+                    </tr>
+                    <tr>
+			<td><font color="#F26D2A"><strong>Bomb Squad	</strong></font></td>
+                      <td><font color="#DC2A95"><strong>Ground/Campus	</strong></font></td>
+                      <td><font color="#86B226"><strong>2 pm onwards	</strong></font></td>
+                    </tr>
+	             <tr>
+			<td><font color="#F26D2A"><strong>Lan Gaming	</strong></font></td>
+                      
+                      <td><font color="#86B226"><strong>CC	</strong></font></td>
+			<td><font color="#DC2A95"><strong>1-2 pm	</strong></font></td>
+                    </tr>
+		    <tr>
+			<td><font color="#F26D2A"><strong>Dwarf Code	</strong></font></td>
+                      <td><font color="#86B226"><strong>CC	</strong></font></td>
+			<td><font color="#DC2A95"><strong>12-1 pm	</strong></font></td>
+                      
+                    </tr>
+                    <tr>
+			<td><font color="#F26D2A"><strong>Biz Mantra	</strong></font></td>
+                     <td><font color="#86B226"><strong>ECE Sem Hall	</strong></font></td>
+ 			<td><font color="#DC2A95"><strong>12-2 pm	</strong></font></td>
+                      
+                    </tr>
+	             <tr>
+			<td><font color="#F26D2A"><strong>Mind your language	</strong></font></td>
+                     <td><font color="#86B226"><strong>2nd floor	</strong></font></td>
+ 			<td><font color="#DC2A95"><strong>2-4 pm	</strong></font></td>
+                      
+                    </tr>
+		    <tr>
+			<td><font color="#F26D2A"><strong>inQUIZitive	</strong></font></td>
+                      <td><font color="#86B226"><strong>Room 212	</strong></font></td>
+			<td><font color="#DC2A95"><strong>12-3 pm	</strong></font></td>
+                      
+                    </tr>
+		    <tr>
+			<td><font color="#F26D2A"><strong>Search Spider	</strong></font></td>
+                      <td><font color="#86B226"><strong>2nd floor	</strong></font></td>
+			<td><font color="#DC2A95"><strong>3-5 pm	</strong></font></td>
+                      
+                    </tr>
+		    <tr>
+			<td><font color="#F26D2A"><strong>Crack Jack	</strong></font></td>
+                      <td><font color="#86B226"><strong>2nd floor	</strong></font></td>
+			<td><font color="#DC2A95"><strong>2-4 pm	</strong></font></td>
+                      
+                    </tr>
+		    
+                    
+                  </table>
+                  </td>
+</tr>
+</table>
+	<br>	
+<table>
+<tr>
+	<th> DAY 3</th>
+</tr>
+</table><br>
+<font color="#F26D2A"><strong> Mastershef Tremors</strong></font> <font color="#DC2A95"><strong>10-12am </strong></font><font color="#86B226"><strong>GCR</strong></font>
+		
+		</div>
+	</div>
+</div>		
+
+
+
+
+
+
+		
+		
+
+<div id="footerSlideContainer">
+	<div id="footerSlideButton4"><center>REGISTER</center></div>
+	<div id="footerSlideContent4">
+		<div id="footerSlideText"><br><br>
+		 <big>
+		 <a href="https://docs.google.com/forms/d/1SHQJa9VBEtu4qUjjdgLK5hsO22SgSXDeeTJme8uzwPs/viewform" target="_blank" >Click here</a> to Register yourself.</big>
+			
+		</div>
+		
+	</div>
+</div>
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>-->
+
+<script type='text/javascript'>
+    QueryLoader.init();
+</script>
+</body>
+</html>

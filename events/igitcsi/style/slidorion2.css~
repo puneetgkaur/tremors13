@@ -1,0 +1,46 @@
+#slide1 {
+	background:#f2f2f2;
+}
+#slide1 .content {
+	padding:20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif; font-weight:bold;
+}
+#slide1 h4 {
+	font-size:24px !important;
+	line-height:28px !important;
+}
+#slide1 .content ul {
+	list-style: square;
+	margin-top:15px;
+	margin-left:40px;
+}
+#slide1 .content li {
+	margin-bottom:10px;
+}
+#slide3 {
+	background:url(../img/slide-bg.jpg) center center no-repeat;
+	color:#fff !important;
+}
+#slide3 .content {
+	padding:15px 20px;
+}
+#slide3 a {
+	color:#ddd;
+}
+#slide3 .content h1 {
+	text-align:left;
+	font-size:60px;
+}
+#slidorion2 {
+	width: 768px;			/* Set to slidorion width. Is equal to #slider + #accordion width */
+	height: 400px;			/* Set to slidorion height. Is equal to #slider and #accordion height */
+	position: relative;
+	left: 50%;
+	margin-left: -384px;
+	padding: 10px;
+	background: #cbcbcb;
+	border: 1px solid #bbb;
+	-webkit-box-shadow: 0 0 34px #bbb;
+	-moz-box-shadow: 0 0 34px #bbb;
+	box-shadow: 0 0 34px #bbb;
+}

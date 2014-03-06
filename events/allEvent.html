@@ -1,0 +1,809 @@
+<!doctype html> 
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>TREMORS 13</title>
+		<link rel="icon" href="../images/asterisk_orange.png" sizes="32x32">
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" media="all" href="css/style.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->		
+				
+		<!-- JS -->
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/tabs.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+		<script src="js/jquery.columnizer.min.js"></script>
+		
+		<!-- Isotope -->
+		<script src="js/jquery.isotope.min.js"></script>
+		
+		<!-- Lof slider -->
+		<script src="js/jquery.easing.js"></script>
+		<script src="js/lof-slider.js"></script>
+		<link rel="stylesheet" href="css/lof-slider.css" media="all"  /> 
+		<!-- ENDS slider -->
+		
+		<!-- Tweet -->
+		<link rel="stylesheet" href="css/jquery.tweet.css" media="all"  /> 
+		<script src="js/tweet/jquery.tweet.js" ></script> 
+		<!-- ENDS Tweet -->
+		
+		<!-- superfish -->
+		<link rel="stylesheet" media="screen" href="css/superfish.css" /> 
+		<script  src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+		<script  src="js/superfish-1.4.8/js/superfish.js"></script>
+		<script  src="js/superfish-1.4.8/js/supersubs.js"></script>
+		<!-- ENDS superfish -->
+		
+		<!-- prettyPhoto -->
+		<script  src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+		<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css"  media="screen" />
+		<!-- ENDS prettyPhoto -->
+		
+		<!-- poshytip -->
+		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-twitter/tip-twitter.css"  />
+		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-yellowsimple/tip-yellowsimple.css"  />
+		<script  src="js/poshytip-1.1/src/jquery.poshytip.min.js"></script>
+		<!-- ENDS poshytip -->
+		
+		<!-- JCarousel -->
+		<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+		<link rel="stylesheet" media="screen" href="css/carousel.css" /> 
+		<!-- ENDS JCarousel -->
+		
+		<!-- GOOGLE FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+		<!-- modernizr -->
+		<script src="js/modernizr.js"></script>
+		
+		<!-- SKIN -->
+		<link rel="stylesheet" media="all" href="css/skin.css"/>
+		
+		<!-- Less framework -->
+		<link rel="stylesheet" media="all" href="css/lessframework.css"/>
+		
+		<!-- jplayer -->
+		<link href="player-skin/jplayer-black-and-yellow.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+		
+		<!-- flexslider -->
+		<link rel="stylesheet" href="css/flexslider.css" >
+		<script src="js/jquery.flexslider.js"></script>
+		<!--RoundAbout-->
+		<link rel="stylesheet" href="css/roundAbout.css"  />
+		
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+
+		 <style type="text/css">
+		   @font-face {
+		    font-family: "sir_william";
+		    src: url("sir_william_HyperBold.ttf");
+		src: local("sir_william"), url("sir_william_HyperBold.ttf");
+		    }
+		    
+		   
+		    
+		    @font-face {
+		    font-family: "aq";
+		    src: url("AquilineTwo.ttf");
+		src: local("aq"), url("AquilineTwo.ttf");
+		    }
+		    
+		    @font-face {
+		    font-family: "tangerine";
+		    src: url("Tangerine_Regular.eot");
+		src: local("tangerine"), url("Tangerine_Regular.eot");
+		    }
+		
+		    @font-face {
+		    font-family: "tangerine";
+		    src: url("Tangerine_Regular.eot");
+		src: local("tangerine"), url("Tangerine_Regular.ttf");
+		    }
+		    
+		    @font-face {
+		    font-family: "tangerine";
+		    src: url("Tangerine_Regular.eot");
+		src: local("tangerine"), url("Tangerine_Regular.eot");
+		    }
+		 
+		.header
+		{ 
+		  font:600% 'sir_william', arial; 
+		  color:#C0C0C0 ;
+		 
+		  margin-left:5%;
+		  }
+                 .entry-content,.info
+                 {
+                 font: normal 150% 'Yanone Kaffeesatz', arial, sans-serif;
+                 }
+		   
+		#font1
+		{ font: normal 155% 'Yanone Kaffeesatz', arial, sans-serif;
+		  padding: 5px 0 0 17px;
+		  color :#C0C0C0;
+		  float: left;}
+		  
+		 #font3
+		{ font: normal 110% 'Yanone Kaffeesatz', arial, sans-serif;
+		  padding: 5px 0 0 17px;
+		   color :#A479B2;
+		  float: left;} 
+		  
+               .project-pager cf
+		 {
+		 color:#FF6600;
+		 } 
+		  .previous-project,.next-project
+		  {
+		   font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+		   color:#FF6600;
+		  }
+		  .entry-content
+		  {
+		  margin-left:15%;
+		  }
+		  .entry-content h3
+		  {
+		  font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+			color:#DB704D;
+			margin:0;
+		  }
+		  .font2
+		  {
+		  font: normal 150% 'aq', arial, sans-serif;
+			color:#DB704D;
+			margin:0;
+		  }
+		  #filter-buttons
+		  {
+		  font: normal 150% 'Yanone Kaffeesatz', arial, sans-serif;
+			color:#DB704D;
+		  }
+		</style>
+	</head>
+	
+	
+	<body>
+	
+		<!-- HEADER -->
+		<header>
+			<div class="wrapper cf">
+				
+				<div id="logo">
+				<div class="header"><!--
+				<font size="5px"><a href="igitcsi/index.html"><span id="font3"><b>IGIT CSI STUDENT BRANCH </b></span></a></font><font size="5px" color="#AD5C5C" family="tangerine"> &nbsp;&nbsp; p r e s e n t s</font>-->
+				<center>
+					<a href="../index.html"><font color="#B8008A">T R E M O R S  13.0 </font></a>
+					
+					</center>
+					</div>
+				</div>
+				<br>
+				<br>
+				
+				
+				<ul id="nav" class="sf-menu">
+				
+					<li><a href="../index.html"><div id="font1">HOME</div></a></li>			
+					<li class="current-menu-item" ><a href="allEvent.html"><div id="font1">ALL EVENTS</div></a></li>
+					<li><a href="schedule.html"><div id="font1">SCHEDULE</div></a></li>			
+					<li><a href="register.html"><div id="font1">REGISTER</div></a></li>
+					
+					
+				</ul>
+				<br><br>
+				<div id="combo-holder"></div>
+				<!-- ends nav -->
+
+			</div>
+		</header>
+		<!-- ENDS HEADER -->
+		<!-- MAIN -->
+		<div id="main">
+			<div class="wrapper cf">
+			
+			
+			
+			
+			
+				
+			<!-- portfolio content-->
+        	<div id="portfolio-content" class="cf">        	
+				
+				
+				
+				<ul id="filter-buttons">
+				        <li><a href="#" data-filter="*" class="selected"><span style ="color:#800033">ALL</span></a></li>
+					<li><a href="#" data-filter=".formal"><span style ="color:#800033">FORMAL</span></a></li>
+					<li><a href="#" data-filter=".informal"><span style ="color:#800033">INFORMAL</span></a></li>
+					<li><a href="#" data-filter=".online"><span style ="color:#800033">ONLINE</span></a></li>
+					
+				</ul>
+				
+				<!-- Filter container -->
+				<div id="filter-container" class="cf">
+				
+					
+					
+
+				
+				
+					<figure class="formal">
+						<a href="Revolutionize.html" class="thumb"><img src="img/formal main/582703_10151288720771935_1223623536_n.jpg" width="300" height="320" alt="Revolutionize" /></a>
+						<figcaption>
+							<a href="Revolutionize.html" ><h3 class="heading">Revolutionize</h3></a>
+							<div class="portfolio-cat">
+							<p>
+Are you ready to write your own Rules?? Do you have the potential to explore the unexplored? Then you are at the right place. </p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					
+				<figure class="online">
+						<a href="ArtisticMind.html" class="thumb"><img src="img/formal online/526591_10151450567688287_1693406950_n.jpg" width="300" height="380" alt="Artistic Mind" /></a>
+						<figcaption>
+							<a href="ArtisticMind.html"><h3 class="heading">Artistic Mind </h3></a>
+							<div class="portfolio-cat">
+									<p>Come and be the next PICASSO!!
+</p>
+								
+							</div>
+						</figcaption>
+					</figure>
+					
+					<figure class="informal">
+						<a href="ADAM Vs. MADAM.html" class="thumb"><img src="img/informal/404532_10151450567833287_1399919139_n.jpg" width="300" height="280" alt="alt" /></a>
+						<figcaption>
+							<a href="ADAM Vs. MADAM.html" ><h3 class="heading">ADAM Vs. MADAM</h3></a>
+							<div class="portfolio-cat">
+							Battle of sexes is back in action..since it  never ends....!!
+
+
+
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					<figure class="informal">
+						<a href="BOMB SQUAD.html" class="thumb"><img src="img/informal/526899_507301142645294_1499493082_n.jpg" width="300" height="270" alt="alt" /></a>
+						<figcaption>
+							<a href="BOMB SQUAD.html" ><h3 class="heading">BOMB SQUAD</h3></a>
+							<div class="portfolio-cat">
+							<p>HUNT FOR BOMBS
+Dare to compare yourself with Sherlock Holmes? Then what are you waiting for? 
+
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					<figure class="informal">
+						<a href="MASTERCHEF TREMORS.html" class="thumb"><img src="img/informal/539604_474215995977043_1399173220_n.jpg" width="300" height="270" alt="alt" /></a>
+						<figcaption>
+							<a href="MASTERCHEF TREMORS.html" ><h3 class="heading">MASTERCHEF TREMORS</h3></a>
+							<div class="portfolio-cat">
+							<p>TREAT YOUR TASTE BUDS……… Do you think that blending & mixing unusual things together can give better result than the usual ones?? Then this is surely your platform!! Who says only moms can cook food??
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					<figure class="online">
+						<a href="DrRiddler.html" class="thumb"><img src="img/online informal/61737_507301222645286_825646863_n.jpg" width="300" height="200" alt="alt" /></a>
+						<figcaption>
+							<a href="DrRiddler.html"><h3 class="heading"> DR. RIDDLER</h3></a>
+							<div class="portfolio-cat">
+									<p>Get ready to Unveil, Unleash, Uncover some tricky answers with your wit !
+							</div>
+						</figcaption>
+					</figure>
+					
+					
+					
+					
+					
+					
+					<figure class="online">
+						<a href="spinAYarn.html" class="thumb"><img src="img/formal online/539694_10152546382625317_561344984_n.jpg" width="300" height="280" alt="Spin A Yarn" /></a>
+						<figcaption>
+							<a href="spinAYarn.html" ><h3 class="heading">Spin A Yarn</h3></a>
+							<div class="portfolio-cat">
+									<p>
+  This is an exciting event for creating a new end to a famous story, your own way. </p>
+								
+							</div>
+						</figcaption>
+					</figure>
+					
+					
+					
+				        <figure class="informal">
+						<a href="tambola.html" class="thumb"><img src="img/informal/534860_2820074677510_993551797_n.jpg" width="300" height="300" alt="alt" /></a>
+						<figcaption>
+							<a href="tambola.html" ><h3 class="heading">Tambola</h3></a>
+							<div class="portfolio-cat">
+									<p>Two fat ladies 88
+ Lions roar 34
+BINGO ! 
+
+</p>
+								
+							</div>
+						</figcaption>
+					</figure>
+					
+					
+					<figure class="informal">
+						<a href="LUCK BY CHANCE.html" class="thumb"><img src="img/informal/6704_10151288720791935_20282574_n.jpg" width="300" height="290" alt="alt" /></a>
+						<figcaption>
+							<a href="LUCK BY CHANCE.html" ><h3 class="heading">LUCK BY CHANCE</h3></a>
+							<div class="portfolio-cat">
+							Ever tried your luck angel?? Do you think you have luck on your side?? 
+Try your luck at our own little Las Vegas!!!
+
+
+
+
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					
+					
+					<figure class="online">
+						<a href="contention.html" class="thumb"><img src="img/formal online/555776_2820074517506_1254210169_n.jpg" width="300" height="350" alt="Contention" /></a>
+						<figcaption>
+							<a href="contention.html"><h3 class="heading">Contention</h3></a>
+							<div class="portfolio-cat">
+									<p>The online debating competition at Tremors 13.0 
+</p>
+								
+							</div>
+						</figcaption>
+					</figure>
+					
+					
+					<figure class="formal">
+						<a href="BizMantra.html" class="thumb"><img src="img/formal main/377761_10152546380355317_515060720_n.jpg" width="300" height="220" alt="Biz Mantra" /></a>
+						<figcaption>
+							<a href="BizMantra.html"><h3 class="heading">Biz Mantra </h3></a>
+							<div class="portfolio-cat">
+									<p> Business plan competition</p>
+								
+							</div>
+						</figcaption>
+					</figure>
+					
+					
+					<figure class="online">
+						<a href="MixAdda_online.html" class="thumb"><img src="img/online informal/535019_10151288720816935_1583662838_n.jpg " width="300" height="270" alt="alt" /></a>
+						<figcaption>
+							<a href="MixAdda_online.html"><h3 class="heading">MIX-ADDA </h3></a>
+							<div class="portfolio-cat">
+									<p>A combo pack of MASTI & DHAMAAL with bollywood songs!!
+
+							</div>
+						</figcaption>
+					</figure>
+					
+					<figure class="formal">
+						<a href="CircuitWizard.html" class="thumb"><img src="img/formal main/485306_2825923663731_2071087344_n.jpg" width="300" height="290" alt="Circuit Wizard" /></a>
+						<figcaption>
+							<a href="CircuitWizard.html"><h3 class="heading">Circuit Wizard</h3></a>
+							<div class="portfolio-cat">
+									<p>An easy way to win exciting prizes by just detecting simple faults in Circuits and correcting them…</p>
+								
+							</div>
+						</figcaption>
+					</figure>
+					
+					
+					<figure class="formal">
+						<a href="CrackJack.html" class="thumb"><img src="img/formal main/11275_10151288718796935_1482648951_n.jpg" width="300" height="280" alt="Crack Jack" /></a>
+						<figcaption>
+							<a href="CrackJack.html" ><h3 class="heading">Crack Jack</h3></a>
+							<div class="portfolio-cat">
+									<p>Cryptographic, mathematical, analytical and other types of puzzles.</p>
+								
+							</div>
+						</figcaption>
+					</figure>
+					
+					
+					<figure class="formal">
+						<a href="DwarfCode.html" class="thumb"><img src="img/formal main/582720_10151305597308149_513719872_n.jpg" width="300" alt="Dwarf Code" /></a>
+						<figcaption>
+							<a href="DwarfCode.html" ><h3 class="heading">Dwarf Code</h3></a>
+							<div class="portfolio-cat">
+									<p>The Programming Challenge </p>
+								
+							</div>
+						</figcaption>
+					</figure>
+					
+					
+					<figure class="formal">
+						<a href="Intellection.html" class="thumb"><img src="img/formal main/556151_474215972643712_209494917_n.jpg"width="300" height="250"  alt="Intellection" /></a>
+						<figcaption>
+							<a href="Intellection.html" ><h3 class="heading">Intellection</h3></a>
+							<div class="portfolio-cat">
+									<p>
+The technical paper presentation contest</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					<figure class="formal">
+						<a href="BattleGround.html" class="thumb"><img src="img/formal main/285603_10151450568358287_1517830257_n.jpg" width="300" height="350" alt="Battleground" /></a>
+						<figcaption>
+							<a href="BattleGround.html" ><h3 class="heading">Battleground</h3></a>
+							<div class="portfolio-cat">
+									<p>
+put your reflexes to test, all the gaming heroes !
+
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					<figure class="formal">
+						<a href="LeagueOfTheLegends.html" class="thumb"><img src="img/formal main/535716_2820074557507_113218545_n.jpg" width="300" height="290" alt="League Of The Legends" /></a>
+						<figcaption>
+							<a href="LeagueOfTheLegends.html" ><h3 class="heading">League Of The Legends</h3></a>
+							<div class="portfolio-cat">
+									<p>
+Obsessed with C??
+Well then, Code Battleship is just the right place for you.</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					<figure class="formal">
+						<a href="MindYourLanguage.html" class="thumb"><img src="img/formal main/404838_10152546382975317_1749888733_n.jpg" width="300" height="250" alt="Mind Your Language" /></a>
+						<figcaption>
+							<a href="MindYourLanguage.html" ><h3 class="heading">Mind Your Language</h3></a>
+							<div class="portfolio-cat">
+								<p>
+Here you need to show your linguistic skills .
+You do not need to be an expert in anything whether it is c,c++,java, or algorithm designing.
+You just need fast reading and comprehension skills. You just need to mind your language!</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					<figure class="informal">
+						<a href="kidz again.html" class="thumb"><img src="img/informal/543641_10151450567988287_1748957516_n.jpg" width="300" heigh="200" alt="alt" /></a>
+						<figcaption>
+							<a href="kidz again.html" ><h3 class="heading">Kidzz Again</h3></a>
+							<div class="portfolio-cat">
+									<p>“For in every adult there dwells the child that was, and in every child there lies the adult that will be.” 
+
+</p>
+								
+							</div>
+						</figcaption>
+					</figure>
+					
+					<figure class="formal">
+						<a href="MindYourOwnBusiness.html" class="thumb"><img src="img/formal main/582724_10152546381140317_699440465_n.jpg" width="300" height="290" alt="Mind Your Own Business" /></a>
+						<figcaption>
+							<a href="MindYourOwnBusiness.html" ><h3 class="heading">Mind Your Own Business</h3></a>
+							<div class="portfolio-cat">
+							<p>
+So roll up your sleeves and show how creative and clever a businessman you are.
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					
+					<figure class="online">
+						<a href="DusKaDam.html" class="thumb"><img src="img/online informal/69268_474435512621758_874263217_n.jpg" width="300" height="290" alt="alt" /></a>
+						<figcaption>
+							<a href="DusKaDam.html" ><h3 class="heading">DUS KA DAM</h3></a>
+							<div class="portfolio-cat">
+									<p>Experience the charm of your favourite reality show right from home! Try your luck and win prizes!
+
+							</div>
+						</figcaption>
+					</figure>
+					
+					
+					
+					
+					
+					
+						<figure class="formal">
+						<a href="Inquizitive.html" class="thumb"><img src="img/formal main/531857_507301335978608_53910670_n.jpg" width="300" height="300" alt="Inquizitive" /></a>
+						<figcaption>
+							<a href="Inquizitive.html" ><h3 class="heading">Inquizitive</h3></a>
+							<div class="portfolio-cat">
+							<p>A challenging and competitive quiz, where several intelligent minds would be fighting to win the title!!</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					
+					
+					<figure class="formal">
+						<a href="RoboRace.html" class="thumb"><img src="img/formal main/17666_10151450567613287_2045717003_n.jpg" width="300" height="320" alt="Robo Race" /></a>
+						<figcaption>
+							<a href="RoboRace.html" ><h3 class="heading">Robo Race</h3></a>
+							<div class="portfolio-cat">
+							<p>Design a manually controlled ROBOT that has capacity to cover maximum distance in shortest possible time, challenging the hurdles and to be one of the best opponents. </p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					
+			
+				        <figure class="formal">
+						<a href="SmashTheBug.html" class="thumb"><img src="img/formal main/404814_2820078157597_2095806623_n.jpg" width="300" height="250" alt="Smash The Bug" /></a>
+						<figcaption>
+							<a href="SmashTheBug.html" ><h3 class="heading">Smash The Bug</h3></a>
+							<div class="portfolio-cat">
+							<p>
+Are you one of those who can spot a bug like an eagle does a mouse??
+	</p>				
+							</div>	
+						</figcaption>
+					</figure>
+				
+				
+					<figure class="informal">
+						<a href="dum charade.html" class="thumb"><img src="img/informal/531955_507301125978629_231902470_n.jpg" width="300" alt="alt" /></a>
+						<figcaption>
+							<a href="dum charade.html"><h3 class="heading">Dumb Charades </h3></a>
+							<div class="portfolio-cat">
+									<p>It has been said that in the land of the dumb, the man with a voice will be the king</p>		
+							</div>
+						</figcaption>
+					</figure>
+					
+					<figure class="informal">
+						<a href="minute to win.html" class="thumb"><img src="img/informal/149949_507301209311954_283664664_n.jpg" width="300" alt="alt" /></a>
+						<figcaption>
+							<a href="minute to win.html"><h3 class="heading">Minute to Win it</h3></a>
+							<div class="portfolio-cat">
+									<p> Truly said.."He who gains time gains everything." 
+Your time to "Beat the Clock" has finally arrived.... 
+
+</p>
+								
+							</div>
+						</figcaption>
+					</figure>
+					
+					
+					
+					
+					<figure class="informal">
+						<a href="STUCK TOGETHER.html" class="thumb"><img src="img/informal/stuck.gif" width="300" alt="alt" /></a>
+						<figcaption>
+							<a href="STUCK TOGETHER.html" ><h3 class="heading">STUCK TOGETHER</h3></a>
+							<div class="portfolio-cat">
+							Would it be totally enthralling to roam around after being tied to someone? Or could it just end up being a disaster?
+
+
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					
+					
+					
+					
+					<figure class="informal">
+						<a href="Potterism Quiz.html" class="thumb"><img src="img/informal/600508_10151288720801935_1389219869_n.jpg" width="300" alt="alt" /></a>
+						<figcaption>
+							<a href="Potterism Quiz.html" ><h3 class="heading">”Potter”ism Quiz</h3></a>
+							<div class="portfolio-cat">
+									<p>We must try not to sink beneath our anguish, Harry, but battle on.
+
+- Quote by Albus Dumbledore
+
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					<figure class="informal">
+						<a href="Couch Potato.html" class="thumb"><img src="img/informal/285393_10152546380680317_196382132_n (1).jpg" width="300" alt="alt" /></a>
+						<figcaption>
+							<a href="Couch Potato.html" ><h3 class="heading">Couch Potato</h3></a>
+							<div class="portfolio-cat">
+									<p>Are you a hopeless television addict?? 
+
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					<figure class="informal">
+						<a href="BLACKOUT.html" class="thumb"><img src="img/informal/35495_2820075317526_65760356_n.jpg" width="300" alt="alt" /></a>
+						<figcaption>
+							<a href="BLACKOUT.html" ><h3 class="heading">BLACKOUT</h3></a>
+							<div class="portfolio-cat">
+								<p>"Living is easy with eyes closed..."
+
+
+
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					<figure class="informal">
+						<a href="SKETCH-A-RATTI(PICTIONARY).html" class="thumb"><img src="img/informal/529586_10151305597208149_147876170_n.jpg" width="300" alt="alt" /></a>
+						<figcaption>
+							<a href="SKETCH-A-RATTI(PICTIONARY).html" ><h3 class="heading">SKETCH-A-RATTI(PICTIONARY)</h3></a>
+							<div class="portfolio-cat">
+							<p>Can you draw a cat? How about sketching something that conveys the word area or hair colour?? Can you do it in less than 60 seconds ,while your team yells the wrong answers at you and the other team is close to getting it right??
+
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					
+					<figure class="informal">
+						<a href="EQUATION.html" class="thumb"><img src="img/informal/equation.gif" width="300" alt="alt" /></a>
+						<figcaption>
+							<a href="EQUATION.html" ><h3 class="heading">EQUATION</h3></a>
+							<div class="portfolio-cat">
+							<p>Want to know your equation with your friend?? 
+Aristotle said  "A friend is a single soul dwelling in two bodies".
+
+
+
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					
+					
+					<figure class="informal">
+						<a href="TICKET TO BOLLYWOOD.html" class="thumb"><img src="img/informal/59714_2820075437529_173542561_n.jpg" width="300" height="300" alt="alt" /></a>
+						<figcaption>
+							<a href="TICKET TO BOLLYWOOD.html" ><h3 class="heading">TICKET TO BOLLYWOOD</h3></a>
+							<div class="portfolio-cat">
+							Are you  filmy at heart?? An ardent bollywood lover??
+ 
+
+
+</p>
+								
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+					
+					<figure class="online">
+						<a href="sitePro.html" class="thumb"><img src="img/formal online/560075_474216062643703_63008983_n.jpg" width="300" height="300" alt="Site-Pro" /></a>
+						<figcaption>
+							<a href="siteProhtml" ><h3 class="heading">Site-Pro</h3></a>
+							<div class="portfolio-cat">
+									<p>	Design a website and show your creative skills !
+</p>
+								
+							</div>
+						</figcaption>
+					</figure>
+					
+					
+					
+					<figure class="formal">
+						<a href="SearchSpider.html" class="thumb"><img src="img/formal main/537090_10151288718731935_303579860_n.jpg" width="300" height="250" alt="Search Spider" /></a>
+						<figcaption>
+							<a href="SearchSpider.html" ><h3 class="heading">Search Spider</h3></a>
+							<div class="portfolio-cat">
+							<p>Act like the spiders and search the solution to the given problems as fast as possible using your searching skills and the best tools available on internet to do it.</p>
+								
+							</div>	
+						</figcaption>
+					 </figure>
+					
+					
+					
+					
+					<figure class="online">
+						<a href="GuessWho.html" class="thumb"><img src="img/online informal/543577_10152546552220317_532646580_n.jpg" width="300" height="300" alt="alt" /></a>
+						<figcaption>
+							<a href="GuessWho.html" ><h3 class="heading"> Guess who?</h3></a>
+							<div class="portfolio-cat">
+									<p>
+Come and test your general knowledge blended with memory power!!
+							</div>
+						</figcaption>
+					</figure>
+					
+					
+					
+					
+					<figure class="online">
+						<a href="PhotoMontage.html" class="thumb"><img src="img/online informal/13145_474435342621775_1451847420_n.jpg" width="300" height="270" alt="alt" /></a>
+						<figcaption>
+							<a href="PhotoMontage.html" ><h3 class="heading">Photo Montage</h3></a>
+							<div class="portfolio-cat">
+									<p>
+Here's the perfect place for all the snapshot freaks and photogenics. 
+							</div>	
+						</figcaption>
+					</figure>
+					
+					
+		
+				</div><!-- ENDS Filter container -->
+				
+			</div>
+			<!-- ENDS featured -->
+										
+				
+			
+			
+			
+			</div><!-- ENDS WRAPPER -->
+			
+		</div>
+		<!-- ENDS MAIN -->
+		
+		
+				<!--JAVASCRIPT FOR ROUNDABOUT-->
+		<script src="js/roundabout/jquery.roundabout2.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('.roundAbout').roundabout();
+			});
+		</script>
+		<!--END OF JAVASCRIPT FOR ROUNDABOUT-->
+
+	</body>
+	
+	
+	
+</html>

@@ -1,0 +1,52 @@
+
+/* styling for the blog page */
+#blog_container h4 {
+  font: normal 200% 'Yanone Kaffeesatz', arial, sans-serif;
+  margin: 0 0 15px 0;
+  padding: 5px 0;}
+
+#blog_container h4.select {
+  /*background: url(../images/light_blog.png) no-repeat right top;*/
+  width: 475px;
+  color: #555;
+}
+
+.blog {
+  background: url(../images/calendar.png) no-repeat;
+  width: 54px;
+  height: 46px;
+  float: left;
+  margin: 0 15px 0 0;}
+
+.blog h2 {
+  font: bold 90% arial, sans-serif;
+  text-shadow: none;
+  text-align: center;
+  margin: 0;
+  padding: 4px 0 0 0;
+  color: #555;
+}
+  
+.blog h3 {
+  font: 140% arial, sans-serif;
+  text-shadow: none;
+  margin: 0;
+  text-align: center;
+  padding: -10px 0 0 0;
+  color: #111;
+}
+   
+#blog_text {
+  padding: 20px;
+  overflow: auto;
+  height: 100%;
+  background: #F1F1E7;
+  text-shadow: 1px 1px #FFF;
+  color: #555;
+}
+
+#blog_text h1 {
+  font: normal 190% 'Yanone Kaffeesatz', arial, sans-serif;;
+  margin: 0 0 15px 0;
+  padding: 5px 0;}
+

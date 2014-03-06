@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html> 
+<head>
+
+<style type="text/css">
+    @font-face {
+    font-family: "Yanone Kaffeesatz";
+    src: url("YanoneKaffeesatz-Regular.otf");
+       }
+
+    @font-face {
+    font-family: "tangerine";
+    src: url("Tangerine_Regular.eot");
+src: local("tangerine"), url("Tangerine_Regular.eot");
+    }
+
+    @font-face {
+    font-family: "tangerine";
+    src: url("Tangerine_Regular.eot");
+src: local("tangerine"), url("Tangerine_Regular.ttf");
+    }
+
+</style>
+<!--
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+-->
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link rel="stylesheet" type="text/css" href="style/blog.css" />
+  <title>IGIT CSI Student Branch</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  
+    		<!--RoundAbout-->
+		<link rel="stylesheet" href="style/roundAbout.css"  />
+  <style>
+  #social{
+  padding:40px;
+  float:right;
+  }
+  #social_img
+  {
+  padding-right:5px;
+  }
+  </style>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1>IGIT CSI <a href="#">Student Branch</a></h1>
+        <div class="slogan">Learn, Envision and Inspire</div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="current"><a href="index.html">Home</a></li>
+          <li><a href="event.html">Events</a></li>
+          <li><a href="team.html">Teams</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+       
+      <div id="sidebar_container">
+
+        <img class="paperclip" src="style/paperclip.png" alt="paperclip" />
+        <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Upcoming Events</h3>
+        <h4>Python Workshop</h4>
+        <h5>31st Jan 2013</h5>
+        Get your hands working on the most widely used language in the industry
+        <p><a href="python_wrkshp.html">Read more</a></p>
+        </div>
+        
+        <img class="paperclip" src="style/paperclip.png" alt="paperclip" />
+        <div class="sidebar">
+        <!-- insert your sidebar items here -->
+       
+        <h3>News</h3>
+        <h4>Mock GD</h4>
+        <h5>8th Oct 2012</h5>
+        Entralling discussions to prepare young minds for future
+        <p><a href="mock_gd.html">Read more</a></p>
+        <h4>Cognition</h4>
+        <h5>1st Oct 2012</h5>
+        A week long entice to inrich the brain nutrients
+        <p><a href="cognition.html">Read more</a></p>
+        <h4>Animagic</h4>
+        <h5>30th Sep 2012</h5>
+        A workshop on 3D Animation
+        <p><a href="animagic">Read more</a></p>
+        </div>
+        <!--
+       <div id="social"><span id="social_img"><img src="images/social/square_facebook.gif"></span><img src="images/social/square_twitter.gif"></div>
+       -->
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+    <div id="left_content">
+        <div id="blog_container">
+        <p></p>
+        <h1><center><font color="#58ACFA">ANIMAGIC - 3D ANIMATION WORKSHOP</font></center></h1>
+        <p></p>
+        <h2><center>Date : 29-30th September,2012</center></h2>
+        <h2><center>Venue : IGIT</center></h2>
+        <p></p>
+        <div class="rd">
+									<ul class="roundAbout">
+										<li><span><img src="images/animagic/68789_10151165532381855_1401666407_n.jpg"  width="250" height="180" /></span></li>
+										<li><span><img src="images/animagic/156580_10151165532826855_1920491716_n.jpg"  width="250" height="180" /></span></li>
+										<li><span><img src="images/animagic/224568_10151165532216855_1777252743_n.jpg"  width="250" height="180"/></span></li>
+										<li><span><img src="images/animagic/487030_10151165533286855_29282399_n.jpg"  width="250" height="180"/></span></li>
+										<li><span><img src="images/animagic/487405_10151165532101855_39831459_n.jpg"  width="250" height="180"/></span></li>
+										<li><span><img src="images/animagic/560357_10151165532006855_101513596_n.jpg"  width="250" height="180"/></span></li>
+									</ul> 
+									</div>
+									<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
+									<p>ANIMAGIC- a 3D Animation workshop was organised on 29th-30 September 2012,  in association with i3indya Technologies. </p>
+        </div>
+      </div>
+
+      </div>
+    <div id="footer">
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+  <script type="text/javascript" src="js/jquery.kwicks-1.5.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#images').kwicks({
+        max :500,
+        spacing : 2
+      });
+    });
+  </script>
+  				<!--JAVASCRIPT FOR ROUNDABOUT-->
+  				<script src="js/roundabout/jquery.js"></script>
+		<script src="js/roundabout/jquery.roundabout2.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('.roundAbout').roundabout();
+			});
+		</script>
+		<!--END OF JAVASCRIPT FOR ROUNDABOUT-->
+</body>
+</html>

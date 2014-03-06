@@ -1,0 +1,270 @@
+<!doctype html> 
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>TREMORS 13</title>
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" media="all" href="css/style.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->		
+				
+		<!-- JS -->
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/tabs.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+		<script src="js/jquery.columnizer.min.js"></script>
+		
+		<!-- Isotope -->
+		<script src="js/jquery.isotope.min.js"></script>
+		
+		<!-- Lof slider -->
+		<script src="js/jquery.easing.js"></script>
+		<script src="js/lof-slider.js"></script>
+		<link rel="stylesheet" href="css/lof-slider.css" media="all"  /> 
+		<!-- ENDS slider -->
+		
+		<!-- Tweet -->
+		<link rel="stylesheet" href="css/jquery.tweet.css" media="all"  /> 
+		<script src="js/tweet/jquery.tweet.js" ></script> 
+		<!-- ENDS Tweet -->
+		
+		<!-- superfish -->
+		<link rel="stylesheet" media="screen" href="css/superfish.css" /> 
+		<script  src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+		<script  src="js/superfish-1.4.8/js/superfish.js"></script>
+		<script  src="js/superfish-1.4.8/js/supersubs.js"></script>
+		<!-- ENDS superfish -->
+		
+		<!-- prettyPhoto -->
+		<script  src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+		<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css"  media="screen" />
+		<!-- ENDS prettyPhoto -->
+		
+		<!-- poshytip -->
+		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-twitter/tip-twitter.css"  />
+		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-yellowsimple/tip-yellowsimple.css"  />
+		<script  src="js/poshytip-1.1/src/jquery.poshytip.min.js"></script>
+		<!-- ENDS poshytip -->
+		
+		<!-- JCarousel -->
+		<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+		<link rel="stylesheet" media="screen" href="css/carousel.css" /> 
+		<!-- ENDS JCarousel -->
+		
+		<!-- GOOGLE FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+		<!-- modernizr -->
+		<script src="js/modernizr.js"></script>
+		
+		<!-- SKIN -->
+		<link rel="stylesheet" media="all" href="css/skin.css"/>
+		
+		<!-- Less framework -->
+		<link rel="stylesheet" media="all" href="css/lessframework.css"/>
+		
+		<!-- jplayer -->
+		<link href="player-skin/jplayer-black-and-yellow.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+		
+		<!-- flexslider -->
+		<link rel="stylesheet" href="css/flexslider.css" >
+		<script src="js/jquery.flexslider.js"></script>
+		
+	</head>
+	
+	
+	<body>
+	
+		<!-- HEADER -->
+		<header>
+			<div class="wrapper cf">
+				
+				
+				<!-- nav -->
+				<ul id="nav" class="sf-menu">
+					<li class="current-menu-item"><a href="index.html">HOME</a></li>
+					<li><a href="event.html">FORMAL EVENTS</a></li>
+					<li><a href="event.html">ONLINE EVENTS</a></li>
+					<li><a href="event.html">ONLINE EVENTS</a></li>
+					<li><a href="event.html">SCHEDULE</a></li>			
+					<li><a href="register.html">REGISTER</a></li>
+				</ul>
+				<div id="combo-holder"></div>
+				<!-- ends nav -->
+
+			</div>
+		</header>
+		<!-- ENDS HEADER -->
+		
+		<!-- MAIN -->
+		<div id="main">
+			<div class="wrapper cf">
+			
+			
+				
+			<!-- portfolio content-->
+        	<div id="portfolio-content" class="cf">        	
+				
+				
+				
+				
+				<!-- project pager -->
+				<div class="project-pager cf">
+					<a class="previous-project" href="DrRiddler.html">&#8592; Previous </a>
+					<a class="next-project" href="DusKaDam.html">Next &#8594;</a>
+				</div>
+				<!-- ENDS project pager -->
+					
+					
+					<!-- project box -->
+				<div id="project-box" class="cf">
+				
+				
+					
+				
+				<div class="project-slider">
+				 <img src="img/posters/603878_472861499445826_426766656_n.gif" alt="alt text" />
+				</div>
+					<!-- slider 
+					<div class="project-slider">
+				        <div class="flexslider">
+						  <ul class="slides">
+						    <li>
+						      <img src="img/dummies/slides/01.jpg" alt="alt text" />
+						    </li>
+						    <li>
+						      <img src="img/dummies/slides/02.jpg" alt="alt text" />
+						    </li>
+						    <li>
+						      <img src="img/dummies/slides/03.jpg" alt="alt text" />
+						    </li>
+						  </ul>
+						</div>
+					</div>
+		        	ENDS slider -->
+
+
+
+					<div class="info">
+	        			<p><strong>Venue</strong> www.tremors13.com</p>
+	        			<!--<p><a href="http://www.luiszuno.com" class="launch" >Launch Project</a></p>-->
+	        		</div>
+	        		
+	        		<!-- entry-content -->
+	        		<div class="entry-content">
+	        		
+	        			<h2 class="heading">SITE PRO</h2>
+	        			
+	        			<div class="multicolumn">
+	        			
+<p>“All that is valuable in human society depends upon the opportunity for development accorded to the individual.”
+ Development is the key to one’s growth. While development is needed in all the phases of life , it finds a great role in technology too.  Website development is thus,no other exception to this!
+A website is a reflection of the creativity and excellence of any organisation,reflecting the way it implements its basic agenda and attracts people.
+So, do you think you can take this challenge and design a website which shows your creativity skills?? 
+Well, let’s get started then. Design a website innovatively and show that you are the best!!!
+SitePro is based on the perfection of the very basics of website designing. With your electrifying capabilities, this is your shot to fame with the perfect and creative website design.
+</p>
+
+The theme of the website must be 
+TECHNOLOGICAL WONDERS
+<br><br>
+<b>Team Specification:</b><br>
+Maximum 2 members
+<br><br><br>
+<b>Rules:</b><br>
+1. The teams should first register online to participate.<br>
+2. The deadline for submission is 13th March, 12 pm.<br>
+3. The website's code has to be mailed to tremors13.spin@gmail.com along with your name and phone number. 
+
+<br><br>
+
+Judging Criteria:<br>
+1. The team with the most creative design, easy to understand and effective layout, in short ,the one with the best features would be the winner.<br>
+2. The decision of the judges would be final and abiding.
+<br><br>
+Prizes:<br>
+Exciting cash prizes or vouchers would be given to the winner team.
+
+
+
+
+	        			</div>
+	        		</div>
+	        		<!-- ENDS entry content -->
+	        		
+	        	</div>
+		    	<!-- ENDS project box -->
+					
+					
+				<!-- related -->
+				<div class="related-projects">
+					<h4 class="related-heading">other informal events</h4>
+					<div class="related-list cf">
+						<figure>
+							<a href="PhotoMontage.html" class="thumb"><img src="img/online informal/13145_474435342621775_1451847420_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							<a href="PhotoMontage.html" class="heading">PhotoMontage</a>
+						</figure>
+						
+						<figure>
+							<a href="MixAdda_online.html" class="thumb"><img src="img/online informal/535019_10151288720816935_1583662838_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							<a href="MixAdda_online.html" class="heading">Mix Adda</a>
+						</figure>
+						
+						<figure> 
+							<a href="DusKaDam.html" class="thumb"><img src="img/online informal/69268_474435512621758_874263217_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							<a href="DusKaDam.html" class="heading">DusKaDum</a>
+						</figure>
+						
+						<figure>
+							<a href="GuessWho.html" class="thumb"><img src="img/online informal/543577_10152546552220317_532646580_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							<a href="GuessWho.html" class="heading">Guess Who</a>
+						</figure>
+						
+						<figure> 
+							<a href="ArtisticMind.html" class="thumb"><img src="img/formal online/526591_10151450567688287_1693406950_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							<a href="ArtisticMind.html" class="heading">Artistic Mind</a>
+						</figure>
+						
+						
+						<figure>
+							<a href="spinAYarn.html" class="thumb"><img src="img/formal online/539694_10152546382625317_561344984_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							<a href="spinAYarn.html" class="heading">Spic a yarn</a>
+						</figure>
+					
+					     <figure>
+							<a href="contention.html" class="thumb"><img src="img/formal online/555776_2820074517506_1254210169_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							<a href="contention.html" class="heading">Contention</a>
+						</figure>
+						
+						<figure>
+							<a href="DrRiddler.html" class="thumb"><img src="img/online informal/61737_507301222645286_825646863_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							<a href="DrRiddler.html" class="heading">Dr Riddler</a>
+						</figure>
+						</p>
+						
+					</div>
+				</div>
+				<!-- ENDS related -->
+									
+				
+    		</div>
+    		<!-- ENDS portfolio content-->
+			
+			
+			
+			</div><!-- ENDS WRAPPER -->
+		</div>
+		<!-- ENDS MAIN -->
+		
+		
+	</body>
+	
+	
+	
+</html>

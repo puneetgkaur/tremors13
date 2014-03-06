@@ -1,0 +1,377 @@
+<!doctype html> 
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>TREMORS 13</title>
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" media="all" href="css/style.css"/>
+		<link rel="icon" href="../images/asterisk_orange.png" sizes="32x32">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->		
+				
+		<!-- JS -->
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/tabs.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+		<script src="js/jquery.columnizer.min.js"></script>
+		
+		<!-- Isotope -->
+		<script src="js/jquery.isotope.min.js"></script>
+		
+		<!-- Lof slider -->
+		<script src="js/jquery.easing.js"></script>
+		<script src="js/lof-slider.js"></script>
+		<link rel="stylesheet" href="css/lof-slider.css" media="all"  /> 
+		<!-- ENDS slider -->
+		
+		<!-- Tweet -->
+		<link rel="stylesheet" href="css/jquery.tweet.css" media="all"  /> 
+		<script src="js/tweet/jquery.tweet.js" ></script> 
+		<!-- ENDS Tweet -->
+		
+		<!-- superfish -->
+		<link rel="stylesheet" media="screen" href="css/superfish.css" /> 
+		<script  src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+		<script  src="js/superfish-1.4.8/js/superfish.js"></script>
+		<script  src="js/superfish-1.4.8/js/supersubs.js"></script>
+		<!-- ENDS superfish -->
+		
+		<!-- prettyPhoto -->
+		<script  src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+		<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css"  media="screen" />
+		<!-- ENDS prettyPhoto -->
+		
+		<!-- poshytip -->
+		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-twitter/tip-twitter.css"  />
+		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-yellowsimple/tip-yellowsimple.css"  />
+		<script  src="js/poshytip-1.1/src/jquery.poshytip.min.js"></script>
+		<!-- ENDS poshytip -->
+		
+		<!-- JCarousel -->
+		<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+		<link rel="stylesheet" media="screen" href="css/carousel.css" /> 
+		<!-- ENDS JCarousel -->
+		
+		<!-- GOOGLE FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+		<!-- modernizr -->
+		<script src="js/modernizr.js"></script>
+		
+		<!-- SKIN -->
+		<link rel="stylesheet" media="all" href="css/skin.css"/>
+		
+		<!-- Less framework -->
+		<link rel="stylesheet" media="all" href="css/lessframework.css"/>
+		
+		<!-- jplayer -->
+		<link href="player-skin/jplayer-black-and-yellow.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+		
+		<!-- flexslider -->
+		<link rel="stylesheet" href="css/flexslider.css" >
+		<script src="js/jquery.flexslider.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+
+		 <style type="text/css">
+		   @font-face {
+		    font-family: "sir_william";
+		    src: url("sir_william_HyperBold.ttf");
+		src: local("sir_william"), url("sir_william_HyperBold.ttf");
+		    }
+		    
+		   
+		    
+		    @font-face {
+		    font-family: "aq";
+		    src: url("AquilineTwo.ttf");
+		src: local("aq"), url("AquilineTwo.ttf");
+		    }
+		    
+		    @font-face {
+		    font-family: "tangerine";
+		    src: url("Tangerine_Regular.eot");
+		src: local("tangerine"), url("Tangerine_Regular.eot");
+		    }
+		
+		    @font-face {
+		    font-family: "tangerine";
+		    src: url("Tangerine_Regular.eot");
+		src: local("tangerine"), url("Tangerine_Regular.ttf");
+		    }
+		    
+		    @font-face {
+		    font-family: "tangerine";
+		    src: url("Tangerine_Regular.eot");
+		src: local("tangerine"), url("Tangerine_Regular.eot");
+		    }
+		 
+		.header
+		{ 
+		  font:600% 'sir_william', arial; 
+		  color:#C0C0C0 ;
+		 
+		  margin-left:5%;
+		  }
+                 .entry-content,.info
+                 {
+                 font: normal 150% 'Yanone Kaffeesatz', arial, sans-serif;
+                 }
+		   
+		#font1
+		{ font: normal 155% 'Yanone Kaffeesatz', arial, sans-serif;
+		  padding: 5px 0 0 17px;
+		  color :#C0C0C0;
+		  float: left;}
+		  
+		 #font3
+		{ font: normal 110% 'Yanone Kaffeesatz', arial, sans-serif;
+		  padding: 5px 0 0 17px;
+		   color :#A479B2;
+		  float: left;} 
+		  
+               .project-pager cf
+		 {
+		 color:#FF6600;
+		 } 
+		  .previous-project,.next-project
+		  {
+		   font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+		   color:#FF6600;
+		  }
+		  .entry-content
+		  {
+		  margin-left:15%;
+		  }
+		  .entry-content h3
+		  {
+		  font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+			color:#DB704D;
+			margin:0;
+		  }
+		  .font2
+		  {
+		  font: normal 150% 'aq', arial, sans-serif;
+			color:#DB704D;
+			margin:0;
+		  }
+		  
+		</style>
+	</head>
+	
+	
+	<body>
+	
+		<!-- HEADER -->
+		<header>
+			<div class="wrapper cf">
+				
+				<div id="logo">
+				<div class="header"><!--
+				<font size="5px"><a href="igitcsi/index.html"><span id="font3"><b>IGIT CSI STUDENT BRANCH </b></span></a></font><font size="5px" color="#AD5C5C" family="tangerine"> &nbsp;&nbsp; p r e s e n t s</font>-->
+				<center>
+					<a href="../index.html"><font color="#B8008A">T R E M O R S  13.0 </font></a>
+					
+					</center>
+					</div>
+				</div>
+				<br>
+				<br>
+				
+				
+				<ul id="nav" class="sf-menu">
+				
+					<li><a href="../index.html"><div id="font1">HOME</div></a></li>
+					<li><a href="formal.html"><div id="font1">FORMAL EVENTS</div></a></li>
+					<li><a href="informal.html"><div id="font1">INFORMAL EVENTS</div></a></li>
+					<li  class="current-menu-item"><a href="#"><div id="font1">ONLINE EVENTS</div></a></li>
+					<li><a href="allEvent.html"><div id="font1">ALL EVENTS</div></a></li>
+					<li><a href="schedule.html"><div id="font1">SCHEDULE</div></a></li>			
+					<li><a href="register.html"><div id="font1">REGISTER</div></a></li>
+					
+				</ul>
+				
+				<br><br>
+				<div id="combo-holder"></div>
+				<!-- ends nav -->
+
+			</div>
+		</header>
+		<!-- ENDS HEADER -->
+		
+		<!-- MAIN -->
+		<div id="main">
+			<div class="wrapper cf">
+			
+			
+				
+			<!-- portfolio content-->
+        	<div id="portfolio-content" class="cf">        	
+				
+				
+				
+				
+				<!-- project pager -->
+				<div class="project-pager cf">
+					<a class="previous-project" href="ArtisticMinds.html">&#8592; PREVIOUS  </a>
+					<a class="next-project" href="spinAYarn.html">NEXT &#8594;</a>
+				</div>
+				<!-- ENDS project pager -->
+					
+					
+					<!-- project box -->
+				<div id="project-box" class="cf">
+				
+				
+					
+				
+				<div class="project-slider">
+				 <img src="img/posters/17597_2816906958319_710512868_n.gif" alt="alt text" />
+				</div>
+					<!-- slider 
+					<div class="project-slider">
+				        <div class="flexslider">
+						  <ul class="slides">
+						    <li>
+						      <img src="img/dummies/slides/01.jpg" alt="alt text" />
+						    </li>
+						    <li>
+						      <img src="img/dummies/slides/02.jpg" alt="alt text" />
+						    </li>
+						    <li>
+						      <img src="img/dummies/slides/03.jpg" alt="alt text" />
+						    </li>
+						  </ul>
+						</div>
+					</div>
+		        	ENDS slider -->
+
+
+
+	        		<!-- entry-content -->
+	        		<div class="entry-content">
+	        		
+	        			<div class="font2">
+	        			"That a literature in our time is living is shown in the way it debates problems." 
+-George Brandes</div>
+<br><br><p>
+Are you somebody who doesn’t keep quiet when you feel your views must be expressed??<br><br>
+Are you somebody who always views things from a different perspective ??<br><br>
+Are you the one who has the capability to face  your opponents no matter what challenge they give you?<br><br>
+
+If yes,then come forward and display your skills  in this event named "Contention"-The online debating competition at Tremors 13.0 . Get ready to put up your views, to face interjections and to emerge out victorious after a battle of words!!<br>
+<br>
+</p>
+<p>
+Prepare for or against the motion on any of the following topics
+
+<br><br>
+1. Should we redefine the word juvenile??
+<br><br>
+2. Should India call off all its relations with Pakistan in view of the recent brutality of the Pakistani soldiers??
+<br><br>
+3. Economy or Environment?? What must India choose??
+<br><br>
+4. Should social media be censored??
+
+<br><br>
+<h3>Rules and Regulations</h3>
+<br>
+1. You have to register yourself online for taking part in this event.<br>
+2. The write up to should be mailed to tremors13.debate@gmail.com before 13th March, 12:00 pm.<br>
+3. Word limit-1000 words.<br>
+4. No form of plagiarism is acceptable, and will lead to direct disqualification.
+<br><br>
+<h3>Prizes</h3><br>
+Exciting cash prizes to be won
+<br><br>
+So buck up and get the ball rolling!!!
+</p>
+
+
+	        		</div>
+	        		<!-- ENDS entry content -->
+	        		
+	        	</div>
+		    	<!-- ENDS project box -->
+					
+					
+				<!-- related -->
+				<div class="related-projects">
+					<h4 class="related-heading"><center>ONLINE EVENTS</center></h4>
+					<div class="related-list cf">
+						<figure>
+							<a href="DusKaDam.html" class="thumb"><img src="img/posters/563220_474435609288415_1088998972_n.gif" width="250" height="150" alt="Alt text" /></a>
+							
+						</figure>
+						
+						
+						<figure> 
+							<a href="ArtisticMind.html" class="thumb"><img src="img/formal online/526591_10151450567688287_1693406950_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							
+						</figure>
+						
+						
+						<figure>
+							<a href="spinAYarn.html" class="thumb"><img src="img/formal online/539694_10152546382625317_561344984_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="DrRiddler.html" class="thumb"><img src="img/online informal/61737_507301222645286_825646863_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							
+						</figure>
+						
+						
+						<figure>
+							<a href="sitePro.html" class="thumb"><img src="img/formal online/560075_474216062643703_63008983_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							
+						</figure>
+						
+												<figure>
+							<a href="MixAdda_online.html" class="thumb"><img src="img/online informal/535019_10151288720816935_1583662838_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							
+						</figure>
+						
+						
+						<figure>
+							<a href="GuessWho.html" class="thumb"><img src="img/online informal/543577_10152546552220317_532646580_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="PhotoMontage.html" class="thumb"><img src="img/online informal/13145_474435342621775_1451847420_n.jpg" width="250" height="150" alt="Alt text" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="techase.html" class="thumb"><img src="img/formal online/techase_banner2.jpg" width="250" height="150" alt="Alt text" /></a>
+						</figure>
+						</p>
+						
+					</div>
+				</div>
+				<!-- ENDS related -->
+									
+				
+    		</div>
+    		<!-- ENDS portfolio content-->
+			
+			
+			
+			</div><!-- ENDS WRAPPER -->
+		</div>
+		<!-- ENDS MAIN -->
+		
+		
+	</body>
+	
+	
+	
+</html>

@@ -1,0 +1,382 @@
+<!doctype html> 
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8"/>
+		<title>TREMORS 13</title>
+		
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" media="all" href="css/style.css"/>
+		<link rel="icon" href="../images/asterisk_orange.png" sizes="32x32">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<!-- Adding "maximum-scale=1" fixes the Mobile Safari auto-zoom bug: http://filamentgroup.com/examples/iosScaleBug/ -->		
+				
+		<!-- JS -->
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/custom.js"></script>
+		<script src="js/tabs.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+		<script src="js/jquery.columnizer.min.js"></script>
+		
+		<!-- Isotope -->
+		<script src="js/jquery.isotope.min.js"></script>
+		
+		<!-- Lof slider -->
+		<script src="js/jquery.easing.js"></script>
+		<script src="js/lof-slider.js"></script>
+		<link rel="stylesheet" href="css/lof-slider.css" media="all"  /> 
+		<!-- ENDS slider -->
+		
+		<!-- Tweet -->
+		<link rel="stylesheet" href="css/jquery.tweet.css" media="all"  /> 
+		<script src="js/tweet/jquery.tweet.js" ></script> 
+		<!-- ENDS Tweet -->
+		
+		<!-- superfish -->
+		<link rel="stylesheet" media="screen" href="css/superfish.css" /> 
+		<script  src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+		<script  src="js/superfish-1.4.8/js/superfish.js"></script>
+		<script  src="js/superfish-1.4.8/js/supersubs.js"></script>
+		<!-- ENDS superfish -->
+		
+		<!-- prettyPhoto -->
+		<script  src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+		<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css"  media="screen" />
+		<!-- ENDS prettyPhoto -->
+		
+		<!-- poshytip -->
+		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-twitter/tip-twitter.css"  />
+		<link rel="stylesheet" href="js/poshytip-1.1/src/tip-yellowsimple/tip-yellowsimple.css"  />
+		<script  src="js/poshytip-1.1/src/jquery.poshytip.min.js"></script>
+		<!-- ENDS poshytip -->
+		
+		<!-- JCarousel -->
+		<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+		<link rel="stylesheet" media="screen" href="css/carousel.css" /> 
+		<!-- ENDS JCarousel -->
+		
+		<!-- GOOGLE FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Voltaire' rel='stylesheet' type='text/css'>
+
+		<!-- modernizr -->
+		<script src="js/modernizr.js"></script>
+		
+		<!-- SKIN -->
+		<link rel="stylesheet" media="all" href="css/skin.css"/>
+		
+		<!-- Less framework -->
+		<link rel="stylesheet" media="all" href="css/lessframework.css"/>
+		
+		<!-- jplayer -->
+		<link href="player-skin/jplayer-black-and-yellow.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+		
+		<!-- flexslider -->
+		<link rel="stylesheet" href="css/flexslider.css" >
+		<script src="js/jquery.flexslider.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+
+		 <style type="text/css">
+		   @font-face {
+		    font-family: "sir_william";
+		    src: url("sir_william_HyperBold.ttf");
+		src: local("sir_william"), url("sir_william_HyperBold.ttf");
+		    }
+		    
+		   
+		    
+		    @font-face {
+		    font-family: "aq";
+		    src: url("AquilineTwo.ttf");
+		src: local("aq"), url("AquilineTwo.ttf");
+		    }
+		    
+		    @font-face {
+		    font-family: "tangerine";
+		    src: url("Tangerine_Regular.eot");
+		src: local("tangerine"), url("Tangerine_Regular.eot");
+		    }
+		
+		    @font-face {
+		    font-family: "tangerine";
+		    src: url("Tangerine_Regular.eot");
+		src: local("tangerine"), url("Tangerine_Regular.ttf");
+		    }
+		    
+		    @font-face {
+		    font-family: "tangerine";
+		    src: url("Tangerine_Regular.eot");
+		src: local("tangerine"), url("Tangerine_Regular.eot");
+		    }
+		 
+		.header
+		{ 
+		  font:600% 'sir_william', arial; 
+		  color:#C0C0C0 ;
+		 
+		  margin-left:5%;
+		  }
+                 .entry-content,.info
+                 {
+                 font: normal 150% 'Yanone Kaffeesatz', arial, sans-serif;
+                 }
+		   
+		#font1
+		{ font: normal 155% 'Yanone Kaffeesatz', arial, sans-serif;
+		  padding: 5px 0 0 17px;
+		  color :#C0C0C0;
+		  float: left;}
+		  
+		 #font3
+		{ font: normal 110% 'Yanone Kaffeesatz', arial, sans-serif;
+		  padding: 5px 0 0 17px;
+		   color :#A479B2;
+		  float: left;} 
+		  
+               .project-pager cf
+		 {
+		 color:#FF6600;
+		 } 
+		  .previous-project,.next-project
+		  {
+		   font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+		   color:#FF6600;
+		  }
+		  .entry-content
+		  {
+		  margin-left:15%;
+		  }
+		  .entry-content h3
+		  {
+		  font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+			color:#DB704D;
+			margin:0;
+		  }
+		  .font2
+		  {
+		  font: normal 150% 'aq', arial, sans-serif;
+			color:#DB704D;
+			margin:0;
+		  }
+		  
+		</style>
+	</head>
+	
+	
+	<body>
+	
+		<!-- HEADER -->
+		<header>
+			<div class="wrapper cf">
+				
+				<div id="logo">
+				<div class="header"><!--
+				<font size="5px"><a href="igitcsi/index.html"><span id="font3"><b>IGIT CSI STUDENT BRANCH </b></span></a></font><font size="5px" color="#AD5C5C" family="tangerine"> &nbsp;&nbsp; p r e s e n t s</font>-->
+				<center>
+					<a href="../index.html"><font color="#B8008A">T R E M O R S  13.0 </font></a>
+					
+					</center>
+					</div>
+				</div>
+				<br>
+				<br>
+				
+				
+				<ul id="nav" class="sf-menu">
+				
+					<li><a href="../index.html"><div id="font1">HOME</div></a></li>
+					<li class="current-menu-item"><a href="#"><div id="font1">FORMAL EVENTS</div></a></li>
+					<li><a href="informal.html"><div id="font1">INFORMAL EVENTS</div></a></li>
+					<li   ><a href="online.html"><div id="font1">ONLINE EVENTS</div></a></li>
+					<li><a href="allEvent.html"><div id="font1">ALL EVENTS</div></a></li>
+					<li><a href="schedule.html"><div id="font1">SCHEDULE</div></a></li>			
+					<li><a href="register.html"><div id="font1">REGISTER</div></a></li>
+					
+					
+				</ul>
+				<br><br>
+				<div id="combo-holder"></div>
+				<!-- ends nav -->
+
+			</div>
+		</header>
+		<!-- ENDS HEADER -->
+		
+		<!-- MAIN -->
+		<div id="main">
+			<div class="wrapper cf">
+			
+			
+				
+			<!-- portfolio content-->
+        	<div id="portfolio-content" class="cf">        	
+				
+				
+				
+				
+				<!-- project pager -->
+				<div class="project-pager cf">
+					<a class="previous-project" href="CircuitWizard.html">&#8592; PREVIOUS </a>
+					<a class="next-project" href="DwarfCode.html">NEXT  &#8594;</a>
+				</div>
+				<!-- ENDS project pager -->
+					
+					
+					<!-- project box -->
+				<div id="project-box" class="cf">
+				
+				
+					
+				
+				
+					<div class="project-slider">
+				 <img src="img/posters/crack.gif" alt="Crack Jack" />
+				</div>
+					<!-- slider 
+					<div class="project-slider">
+				        <div class="flexslider">
+						  <ul class="slides">
+						    <li>
+						      <img src="img/dummies/slides/01.jpg" alt="alt text" />
+						    </li>
+						    <li>
+						      <img src="img/dummies/slides/02.jpg" alt="alt text" />
+						    </li>
+						    <li>
+						      <img src="img/dummies/slides/03.jpg" alt="alt text" />
+						    </li>
+						  </ul>
+						</div>
+					</div>
+		        	ENDS slider -->
+
+
+	        		<!-- entry-content -->
+	        		<div class="entry-content">
+	        		
+	        			<div class="font2">
+	        			“The art of simplicity is a puzzle of complexity.”<br>
+- Douglas Horton</div><br><br><p>
+Are you intrigued by puzzles?? Do you have the capability to see the unseen??<br><br>
+If yes, then <font color="#DB704D">CrackJack</font> is the event for you.
+We have an assortment of enigmas to test your ingenuity.  The only thing you have to do is put the pieces together.<br><br>
+
+So are you ready to ensemble these missing chunks with your creativity and ingenuity?<br><br>
+Are You Up to the Challenge? </p>
+	        			
+	        			<p><h3>Team Specification</h3><br>
+Maximum 2 members<br><br>
+<h3>Event Format</h3><br>
+The event comprises of cryptographic, mathematical, analytical and other types of puzzles.<br> Solutions to puzzles may require recognizing patterns, creating a particular order and similar activities.<br><br>
+<h3>Rules and Regulations</h3><br>
+
+Any action deemed unsporting by the organisers may result in disqualification. This includes, but is not limited to, soliciting or stealing answers and intentionally sabotaging any aspect of a puzzle. <br><br>
+
+<h3>Judging criteria</h3><br>
+Each puzzle is worth 1,2 or 3 points based on the level of difficulty.<br>
+There is no negative marking for incorrect answers. <br>
+Teams with equal scores are ranked by the number of puzzles they have solved. If there is still a tie, then they are ranked by their average solving time. <br><br>
+<h3>Prizes</h3><br>
+Exciting prizes to be won<br></p>
+<br>
+<p>For any queries write us at <a href="mailto:formaleventstremors13@gmail.com">formaleventstremors13@gmail.com</a></p>
+	        			
+	        		</div>
+	        		<!-- ENDS entry content -->
+	        		
+	        	</div>
+		    	<!-- ENDS project box -->
+					
+					
+				<!-- related -->
+				<div class="related-projects">
+					<h4 class="related-heading"><center>FORMAL EVENTS</center></h4>
+					<div class="related-list cf">
+						
+						<figure>
+							<a href="CircuitWizard.html" class="thumb"><img src="img/formal main/485306_2825923663731_2071087344_n.jpg" alt="Circuit Wizards" width="250" height="100" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="BizMantra.html" class="thumb"><img src="img/formal main/377761_10152546380355317_515060720_n.jpg" alt="Biz Mantra" width="250" height="100" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="DwarfCode.html" class="thumb"><img src="img/formal main/582720_10151305597308149_513719872_n.jpg" alt="Dwarf Code" width="250" height="100" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="Intellection.html" class="thumb"><img src="img/formal main/556151_474215972643712_209494917_n.jpg" alt="Intellection" width="250" height="100" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="BattleGround.html" class="thumb"><img src="img/formal main/285603_10151450568358287_1517830257_n.jpg" alt="Battleground" width="250" height="100" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="LeagueOfTheLegends.html" class="thumb"><img src="img/formal main/535716_2820074557507_113218545_n.jpg" alt="League Of The Legends" width="250" height="100" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="MindYourLanguage.html" class="thumb"><img src="img/formal main/404838_10152546382975317_1749888733_n.jpg" alt="Mind Your Language" width="250" height="100" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="MindYourOwnBusiness.html" class="thumb"><img src="img/formal main/582724_10152546381140317_699440465_n.jpg" alt="Mind Your Own Business" width="250" height="100" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="Inquizitive.html" class="thumb"><img src="img/formal main/531857_507301335978608_53910670_n.jpg" alt="Inquizitive" width="250" height="100" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="Revolutionize.html" class="thumb"><img src="img/formal main/582703_10151288720771935_1223623536_n.jpg" alt="Revolutionize" width="250" height="100" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="RoboRace.html" class="thumb"><img src="img/formal main/17666_10151450567613287_2045717003_n.jpg" alt="Robo Race" width="250" height="100" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="SearchSpider.html" class="thumb"><img src="img/formal main/537090_10151288718731935_303579860_n.jpg" alt="Search Spider" width="250" height="100" /></a>
+							
+						</figure>
+						
+						<figure>
+							<a href="SmashTheBug.html" class="thumb"><img src="img/formal main/404814_2820078157597_2095806623_n.jpg" alt="Smash The Bug" width="250" height="100" /></a>
+							
+						</figure>
+					</div>
+				</div>
+				<!-- ENDS related -->
+									
+				
+    		</div>
+    		<!-- ENDS portfolio content-->
+			
+			
+			
+			</div><!-- ENDS WRAPPER -->
+		</div>
+		<!-- ENDS MAIN -->
+		
+		
+	</body>
+	
+	
+	
+</html>
